@@ -73,6 +73,6 @@ public class CoquilleAccueilController {
     // TODO exercice 4 : fermer la fenêtre courante.
     // On récupère le Stage via la Scene du labelTitre, puis on appelle close().
 
-    ((Stage) labelTitre.getScene().getWindow()).close();
+    labelTitre.getScene().getWindow().hide();
   }
 }
